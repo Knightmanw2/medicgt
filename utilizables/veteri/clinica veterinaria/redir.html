@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <title>Veterinaria Kaminal</title>
+</head>
+<body>
+    <div class="contenedor-titulo">
+        <img class="logo" src="veterinaria.png" >
+        <img class="enca" src="sobredef1.png">
+        <h1 class="titulo-veterinaria">
+            Registro de vacunación
+        </h1>
+    </div>
+
+    <div class="tituloform">
+        <h1>
+            Datos de mascota para vacunación
+        </h1>
+    </div>
+    <div>
+        <form class="formulario2" action="mascota.php" method="POST">
+            <label class="label lcarnet">Carnet de la mascota:</label>             
+            <input type="number" class="input_carnet" name="inp1"
+            placeholder="carnet de la mascota"/>      
+
+            <label class="label lnombre">Nombre de la mascota:</label>             
+            <input type="text" class="input_nombre" name="inp2"
+            placeholder="Nombre de la mascota"/>   
+            
+            
+            <br>
+            <label class="label lcarnet">Fecha de vacunación:</label>
+            <input type="date" name="inp3"
+            class="input input_carnet"/> 
+
+            <label class="label lnombre">Nombre de vacuna:</label>             
+            <input type="text" class="input_nombre" name="inp4"
+            placeholder="Nombre de la vacuna"/> 
+            
+            <br>
+            <label class="label lcarnet">Familia de la mascota:</label>
+            <input type="text" class="input input_carnet" name="inp5"
+            placeholder="Apellido de la familia de la mascota"/> 
+
+            <label class="label lcarnet">Carnet de la familia:</label>
+            <input type="number" class="input input_carnet" name="inp6"
+            placeholder="Carnet de la familia"/> 
+            
+            <br>
+            <button type="submit" class="bingreso">Ingresar</button>
+            <button type="reset" class="bingreso">eliminar</button>            
+            
+        </form>
+
+    </div>
+ 
+            <div>
+                <button type="button" class="bvolv"><a href="veterinaria.html">Volver</a></button>
+            </div>
+
+</body>
+</html>

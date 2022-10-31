@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor-titulo{
+    display: flex;
+    align-items: center;
+    text-align: right;  
+}
+.titulo-veterinaria{
+   margin-left: 50%;
+   font-size: 2.5em;
+   color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 165px;
+    width: 360px;
+    margin: 0% 0%  0% 0%;
+}
+
+.titulo-veterinaria,.logo{
+    position: absolute;
+}
+
+.enca{
+    width: 100%;
+}
+
+.final{
+    display: flex;
+    align-items: center;
+    text-align: left;  
+}
+
+.piepag{
+    width: 100%;
+}
+.textofinal1{
+    position: absolute;
+}
+
+.resto{
+    margin: 0% 0%  0% 0%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* -------------------------------------------------1er Formulario--------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.tituloform{
+    margin: 1% 0% 0% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario1{
+    margin: 3% 0% 2% 5%;
+    width: 80%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.formulario1:hover{
+    box-shadow: 0px 0px 2px #000000
+}
+
+.label{
+    font-size: 15px;
+}
+
+/*label e imput nombre*/
+.lnombre{
+    margin: 3% 0% 0% 3%;    
+}
+
+.input_nombre{
+    margin: 3% 0% 0% 0%;
+    width: 50%;
+}
+
+/*label e imput telefono veterinario*/
+.lnit{
+    margin: 3% 0% 0% 0%;
+}
+
+.input_nit{
+    margin: 3% 0% 0% 0%;
+    width: 28%;
+}
+
+/*correo*/
+.lcorreo{
+    margin: 1% 1% 3% 3%;
+}
+
+.input_correo{
+    margin: 1% 1% 3% 0%;
+    width: 35%;
+}
+
+/*fecha*/
+.input_fecha{
+    margin: 2% 0% 0% 0%;
+    width: 38%;
+}
+
+/*dirección*/
+
+.ldir{
+    margin: 0% 0% 0% 3%;
+}
+
+.input_fam{
+    margin: 0% 0% 0% 0%;
+    width: 30%;
+}
+
+.input_vet{
+    width: 25%;
+}
+
+.inputmasc1{
+    width: 30%;
+}
+
+
+/*boton limpiar--------------------------------------------------------------------------------------------------------*/
+.blimpiar{
+    width: 15%;
+    height: auto;
+    margin: 2% 0% 0% 10%;
+    border: 1px solid black;
+    border-radius: 5px; 
+    font-size: 0.9em; 
+}
+.blimpiar:hover{
+    border: 2px solid black;
+}
+
+.blimpiar:active{
+    color: aliceblue;
+    background-color: darkgray;   
+}
+
+/*boton ingreso--------------------------------------------------------------------------------------------------------*/
+
+.bingreso{
+    width: 15%;
+    height: auto;
+    margin: 2% 0% 0% 10%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline;
+    font-size: 0.9em;
+}
+
+.bingreso:hover{
+    border: 2px solid black;
+}
+
+.bingreso:active{
+    color: aliceblue;
+    background-color: darkgray;   
+}
+
+
+/*Boton Registro de vacunas*/
+.bmost{
+    width: 10%;
+    height: 40px;
+    margin: 4% 0% 2% 80%;
+    border: 1px solid black;
+    border-radius: 5px; 
+    font-size: 0.9em;
+    display: inline-block;
+
+}
+
+.bmost:hover{
+    border: 2px solid black;
+}
+
+.bmost:active{
+    color: aliceblue;
+    background-color: darkgray;    
+}

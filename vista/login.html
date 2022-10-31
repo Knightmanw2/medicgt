@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="../css/style.css">
+    <link rel="stylesheet" type = "text/css" href="../css/css/all.main.css">
+    <title>MedicGt</title>
+    <!--Head -->
+</head>
+<body>
+    <div class = "container">
+        <center>
+            <br><br>
+            <div class ="img">
+                <img src="../img/login image.png" alt="" height="250px" >
+            </div>
+        </center>        
+        <center>
+            <br><br>
+            <div class="contenido-login">
+                <form action="loginbd.php" method="POST">
+                    <h2>MedicGt</h2>
+                    <div class = "input-div dpi">
+                        <!--Usuario --------------------------------------------------------------------------------------------------->
+                        <h5>Usuario</h5>
+                        <input type="text" name ="txtusuario" class="input">
+                    </div>
+                    <div class = "input-div pass"> 
+                        <!--Password --------------------------------------------------------------------------------------------------->
+                        <h5>Contraseña</h5>
+                        <input type="password" name ="txtpassword" class="input">
+                    </div>
+                    <br>
+                    <input type="submit" class="btn" value="Iniciar sesion">
+                </form>
+            </div>
+        </center>
+       
+    </div>
+</body>
+<script src="../js/login.js"></script>
+</html>

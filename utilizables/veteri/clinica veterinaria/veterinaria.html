@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Veterinaria Kaminal</title>
+	<link rel="stylesheet" href="style.css">	
+</head>
+<body>
+      <!--==============================================================================================================
+	=======================================          encabezado    ===============================================
+	===============================================================================================================-->  
+    <div class="contenedor-titulo">
+        <img class="logo" src="veterinaria.png" >
+        <img class="enca" src="sobredef1.png">
+        <h1 class="titulo-veterinaria">
+            Registro
+        </h1>
+    </div>
+
+    <div class="resto">
+        
+    <div class="tituloform">
+        <h1>
+            Ingreso de Macotas
+        </h1>
+    </div>
+    
+    <!--==============================================================================================================
+	=======================================           Formulario 1     ===============================================
+	===============================================================================================================-->
+    <div>
+        
+        <form class="formulario1" action="veterinario.php" method="POST">
+            <div class="elemform1">
+            <br>
+            <label for="name" class="label lnombre">Datos del veterinario:</label> 
+            <br>
+            <label for="name" class="label lnombre">Nombre:</label>
+    
+            <!-- input nombre ----------------------------------------------------------------------------------------------->
+            <input type="text" class="input input_nombre" 
+            placeholder="Nombre del veterinario" name="inp1"></input>
+    
+           
+            <label for="nit"class="label lnit">Teléfono:</label>
+             <!-- input telefono veterinario----------------------------------------------------------------------------------------------->
+            <input type="text" class="input input_nit"
+            placeholder="Numero de teléfono" name="inp2"/>
+            <br>
+                
+            <label for="correo" class="label lcorreo">Correo del veterinario:</label>
+             <!-- input correo ----------------------------------------------------------------------------------------------->
+            <input type="email" class="input input_correo"
+            placeholder="@mail.com obligatorio" name="inp3"/>
+
+            <label for="nit"class="label lnit">Carnet veterinario:</label>
+            <input type="number" class="input input_vet"
+            placeholder="Carnet veterinario" name="inp4"/>  
+
+            <br>        
+            <label for="direccion"class="label ldir">Carnet de la familia:</label>
+            <input type="number" class="input input_fam" name="inp5"
+            placeholder="número de carnet familia del paciente"/>
+
+            <label for="direccion"class="label ldir">Carnet de mascota:</label>
+            <input type="number" class="input inputmasc1" name="inp6"
+            placeholder="número de carnet familia del paciente"/>
+            <br>
+         
+            </div>        
+            <div class="parbotom">
+                <input type="reset" value="Limpiar Formulario" class="blimpiar">
+                <input type="submit" name="registrar" value="Ingresar Datos" class="bingreso">
+            </div>
+
+        </form>
+    </div>
+    
+    
+    
+
+    <section>
+        <div>
+            <button type="button" class="bmost"><a href="redir.html">Registro de Vacunas</a></button>
+        </div>
+    </section>
+    
+    </div> <!--Finaliza div resto -->
+    <div class="final">
+        <img class="piepag" src="sobredef1.png">
+        <p class="textofinal1">
+            Copyright © 2021 Sergio Alejandro Argueta Castillo. All rights reserved. Any person accessing this site agrees to the Terms of Use and Privacy Policy. Contact sergioargueta111@gmail.com for permission to reproduce, store, translate or transmit this document.
+            <br>
+            Sergio Alejandro Argueta Castillo <br>
+            Tel: +502 5017-0147 <br>
+            3a. Avenida 9-00 zona 2, 01002 Interior Finca El Zapote, Cdad. de Guatemala 01002 <br>
+        </p>
+        <p class="textofinal2">
+            
+            
+        </p>
+    </div>
+    
+   
+</body>
+</html>
